@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <label>First Name: <input type="text" name="firstname" placeholder="firstname" required> 
+        </label><br>
+        <label>Last Namme: <input type="text" name="lastname" placeholder="lastname"></label><br>
+        <label>Gender<input type="radio" name="gender" value="male"></label>
+        <label for="male">Male</label>
+        <label><input type="radio" name="gender" value="female"></label>
+        <label for="female">Female</label>
+        <label><input type="radio" name="gender" value="other"></label>
+        <label for="other">Other</label><br>
+        <label>Address <input type="text" name="address" placeholder="address" required></label> 
+        <br>
+        <label>Date of Birth <input type="date" name="birthday" requried></label><br>
+        <label>Email <input type="email" name=="email" required></label><br>
+        <label>Password <input type="password" name="password" placeholder="Enter your password" 
+        pattern="{8,16}" required title="pls enter 
+        password leangth atleast 8, must include symbols."></label><br>
+        <label><input type="checkbox" name="check"required>I agree to the terms and 
+        conditions</label><br>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
