@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Registraion form</title>
+</head>
+<body>
+  <form>
+    <h3>Registration form</h3>
+    <input type="radio" name="reg" id="reg">
+    <label for="reg">Already registered</label>
+    <input type="radio" name="reg" id="reg">
+    <label for="reg">New registration</label>
+    <br><br>
+    <label for="fnm">First Name:</label>
+    <input type="text" name="fnm" id="fnm" required>
+    <label for="lnm">Last Name:</label>
+    <input type="text" name="lnm" id="lnm">
+    <br><br>
+    <label for="gnd">Gender</label>  
+    <input type="radio" name="gnd" id="gnd">
+    <label for="male" >Male</label>
+    <input type="radio" name="gnd" id="gnd">
+    <label for="female">Female</label>
+    <input type="radio" name="gnd" id="gnd">
+    <label for="other">Other</label>
+    <br><br>
+    <label for="dob">Date of birth</label>
+    <input type="date" name="dob" id="dob" required>  
+    <br><br>
+    <label for="add">Address</label>
+    <input type="text" name="add" id="add">
+    <br><br>
+    <label for="tel">Phone no.</label>
+    <input type="tel" name="tel" id="tel" required>
+    <br><br>
+    <label for="branch">Branch</label>
+      <select name="branch" id="branch">
+        <option value="sle">select</option>
+        <option value="cse">Computer Science Engg. 
+         </option>
+        <option value="ce">Civil Engg.</option>
+        <option value="me">Mechenical Engg.</option>
+        <option value="">AI & ML</option>
+      </select><br><br>
+    <label for="sem">Semester</label>
+      <select name="sem" id="sem">
+         <option value="0th">select</option>
+        <option value="1st">1st Semester</option>
+        <option value="2nd">2nd Semester</option>
+        <option value="3rd">3rd Semester</option>
+        <option value="4th">4th Semester</option>
+        <option value="5th">5th Semester</option>
+        <option value="6th">6th Semester</option>
+        <option value="7th">7th Semester</option>
+        <option value="8th">8th Semester</option>
+      </select><br><br>
+    <label for="email">Email</label>
+      <input type="email" name="email" id="email" required><br><br>
+    <label for="pswd">Password</label>
+    <input type="password" name="pswd" id="pswd" pattern="8-16" required><br><br>
+    <label for="img">Photo</label>
+    <input type="file" name="img" id="img" required><br><br>
+    <label for="file">Signature</label>
+    <input type="file" name="file" id="file" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
